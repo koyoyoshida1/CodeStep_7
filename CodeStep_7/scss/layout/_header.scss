@@ -1,0 +1,10 @@
+header {
+  @include bg("../img/mainvisual.jpg", relative ,100vh);
+  // 画像の重ねはcssで挿入し heightはviewportHeightを利用し調整する
+  // トプ画像を画面の高さを合わせるために100vh
+  // ロゴの位置を固定するために、親要素の"position"にrelative
+
+  h1 {
+    @include ab(30px, auto, 30px);
+  }
+}

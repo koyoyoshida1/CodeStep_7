@@ -1,0 +1,32 @@
+#catalog, #antique {
+  background-color: $gray;
+}
+
+.item {
+  @include flex;
+  margin: 0 13%;
+
+  img {
+    width: 48%;
+    margin: 5% 4% 0 0;
+  }
+
+  &_txt {
+    text-align: center;
+    margin: 7% 0 0;
+
+    p {
+      margin: 6% 0;
+      text-align: left;
+    }
+  }
+}
+
+#antique {
+  padding-bottom: 5%;
+  .item {
+    img{
+      margin: 5% 0 0 4%;
+    }
+  }
+}

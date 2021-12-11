@@ -1,0 +1,56 @@
+@media screen and (max-width: 896px) {
+  
+  .inner_1 {
+    margin: 5% 5%;
+  }
+
+  #about {
+    .about_item {
+      flex-direction: column;
+
+      a{
+        width: 100%;
+        margin-bottom: 5%;
+      }
+    }
+  }
+
+  #fashion {
+    height: 40vh;
+  }
+
+  #catalog, #antique {
+    .item {
+      flex-direction: column;
+      margin: 0 5%;
+
+      img {
+        width: 100%;
+        margin: 5% 0 0;
+      }
+    }
+  }
+
+  #footer {
+    .footer_item {
+      flex-direction: column;
+      padding: 5% 5%;
+
+      &_txt {
+        width: 100%;
+
+        img {
+          width: 13vw;
+        }
+
+        &._img {
+          text-align: center;
+          padding: 0;
+        }
+      }
+    }
+    .ttl_sub {
+      padding-top: 5%;
+    }
+  }
+}

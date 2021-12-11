@@ -1,0 +1,6 @@
+#fashion {
+  @include bg("../img/fashion.jpg", auto, 55vh);
+  text-align: center;
+  padding-top: 3%;
+  margin-bottom: 4%;
+}

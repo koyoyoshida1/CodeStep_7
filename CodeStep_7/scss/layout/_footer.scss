@@ -1,0 +1,36 @@
+#footer {
+  font-size: 0.750rem;
+  background-color: $black;
+
+  .footer_item {
+    color: $white;
+    @include flex;
+    padding: 7.5% 13%;
+
+    &_txt {
+      width: 33%;
+      line-height: 2;
+
+      img {
+        width: 8vw;
+      }
+
+      li::before {
+        content: "-";
+        margin-right: 0.75%;
+      }
+    }
+  }
+
+  .copyright {
+    text-align: center;
+    padding: 2% 0;
+    background-color: $white;
+  }
+
+  .ttl_sub {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 2%;
+  }
+}

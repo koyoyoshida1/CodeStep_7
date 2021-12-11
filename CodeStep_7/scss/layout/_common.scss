@@ -1,0 +1,49 @@
+@mixin bg($img, $ps, $h) {
+  background-image: url($img);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: $ps;
+  height: $h;
+  // 繰り返しの画像表現を避けポジションをセンタートップに調整する(定型分)
+}
+
+@mixin ab($t, $l, $r) {
+  position: absolute;
+  top: $t;
+  left: $l;
+  right: $r;
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ttl {
+  font-size: 1.5rem;
+  margin-bottom: 2%;
+
+  &_sub {
+    font-size: 1.25rem;
+    margin-bottom: 1%;
+  }
+}
+
+.btn {
+  color: $black;
+  border: solid 1px $black;
+  display: inline-block;
+  font-size: 0.750rem;
+  padding: 3% 7%;
+  margin-top: 3%;
+}
+
+.inner_1 {
+  margin: 5% 13%;
+}
+
+.inner_2 {
+  margin: 0 0 5%;
+}

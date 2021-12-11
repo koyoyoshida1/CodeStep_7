@@ -1,0 +1,23 @@
+#about {
+  text-align: center;
+
+  .about_item {
+    @include flex;
+    margin-top: 4%;
+
+    a {
+      width: 49%;
+      position: relative;
+    }
+
+    &_txt {
+      color: $white;
+      background-color: $black;
+      opacity: 0.5;
+      padding: 3% 0;
+      @include ab(40%, 25%, 0);
+      width: 50%;
+    }
+    
+  }
+}
